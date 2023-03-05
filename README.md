@@ -16,7 +16,11 @@
 6. [Bonus](#-bonus-)
 
 ## 🖥 Introduction 🖥
-This project is a portfolio made with Strapi and NuxtJS. Only four projects are present but a lot more are coming. More than 30 drafts have already been prepared...👀 <br>
+This project is a portfolio made with Strapi and NuxtJS. Only four projects are present but a lot more are coming. More than 30 drafts have already been prepared...👀 
+
+Website video => https://www.youtube.com/watch?v=2XOvrEwbg2c
+
+CMS video => https://www.youtube.com/watch?v=LbbxWhrJbUw
 
 ## 🖥 Instructions 🖥
 Open two terminals. The first one in the nuxt directory and the second one in the strapi directory.
