@@ -1,0 +1,27 @@
+.cbi__asso{
+  @include m{
+    height: 23rem !important;
+  }
+  @include sm{
+    margin-top: 13rem !important;
+  }
+  @include s{
+    margin-top: 19rem !important;
+  }
+}
+
+.social__asso{
+  @include ml{
+    right: -78.3rem !important;
+    top: 23rem !important;
+  }
+  @include m{
+    top: 117.5rem !important;
+  }
+  @include sm{
+    top: 118.5rem !important;
+  }
+  @include s{
+    top: 135.5rem !important;
+  }
+}

@@ -1,0 +1,24 @@
+.cbi__index{
+  @include ml{
+    margin-top: 13rem !important;
+    margin-bottom: 4rem !important;
+  }
+  @include s{
+    margin-top: 19rem !important;
+    margin-bottom: 8rem !important;
+  }
+}
+
+.social__index{
+  right: -78rem !important;
+  top: 23rem !important;
+  @include m{
+    top: 54rem !important;
+  }
+  @include sl{
+    top: 63.5rem !important;
+  }
+  @include s{
+    top: 70.5rem !important;
+  }
+}

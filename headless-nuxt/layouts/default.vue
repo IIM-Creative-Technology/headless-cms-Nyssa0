@@ -1,5 +1,15 @@
 <template>
   <main role="main">
-    <slot />
+    <slot/>
   </main>
 </template>
+
+<script>
+export default {
+  name: "default"
+}
+</script>
+
+<style scoped>
+
+</style>

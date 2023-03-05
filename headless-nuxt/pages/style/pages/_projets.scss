@@ -1,0 +1,28 @@
+.cr__projets{
+  @include s{
+    bottom: 3rem !important;
+  }
+}
+
+.social__projets{
+  @include ml{
+    right: -78rem !important;
+    top: 23rem !important;
+  }
+  @include m{
+    top: 657.5rem !important;
+  }
+  @include sl{
+    top: 1225.5rem !important;
+  }
+  @include s{
+    top: 1230.5rem !important
+  }
+}
+
+.ctn__projets{
+  @include s{
+    padding-bottom: 4rem !important;
+  }
+}
+

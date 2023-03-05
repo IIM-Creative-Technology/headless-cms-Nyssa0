@@ -1,0 +1,31 @@
+.cbi__interets{
+  @include m{
+    height: 23rem !important;
+  }
+  @include sm{
+    margin-top: 13rem !important;
+  }
+  @include s{
+    margin-bottom: 6rem !important;
+    margin-top: 20rem !important;
+  }
+}
+
+.social__interets{
+  @include ml{
+    right: -78.3rem !important;
+    top: 23rem !important;
+  }
+  @include m{
+    top: 420rem !important;
+  }
+  @include sl{
+    top: 414rem !important;
+  }
+  @include sm{
+    top: 415rem !important;
+  }
+  @include s{
+    top: 419rem !important;
+  }
+}

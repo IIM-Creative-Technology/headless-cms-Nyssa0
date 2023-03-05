@@ -1,0 +1,251 @@
+@import "../abstracts/abstracts";
+.project__container{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem;
+	margin: 2.4rem;
+	padding-bottom: 0;
+	box-shadow: 2rem 2rem 5rem rgba(0, 0, 0, 0.5);
+	border-radius: 1.5rem;
+	background: rgba(255, 255, 255, 0.1);
+	overflow: hidden;
+	border-top: 0.1rem solid rgba(255, 255, 255, 0.5);
+	border-left: 0.1rem solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(0.5rem);
+	@include ml{
+		margin: 0;
+		margin-top: 6rem;
+	}
+	@include m{
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+	@include sl{
+		padding: 2rem;
+	}
+	@include s{
+		padding: 1rem;
+		margin-top: 0;
+	}
+	iframe{
+		width: 100%;
+		height: 500px;
+		@include m{
+			height: 213px;
+		}
+		@include sl{
+			height: 150px;
+		}
+		@include sm{
+			height: 130px;
+		}
+		@include s{
+			height: 115px;
+		}
+	}
+	.project__image{
+		width: 100%;
+		border-radius: 1.5rem;
+	}
+	.project__container__icons{
+		padding: 0;
+		margin-top: 4.8rem;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: none;
+		min-height: 0;
+		@include sl{
+			bottom: -20px;
+			margin-top: 2rem;
+		}
+		&::before{
+			content: '';
+			position: absolute;
+			width: 110%;
+			height: 50%;
+			bottom: 0;
+			z-index: 10;
+			border-top: 0.1rem solid rgba(255,255,255,0.5);
+			background: rgba(245, 234, 240, 0.5);
+			backdrop-filter: blur(1rem);
+		}
+		.project__container__icons .color{
+			position: absolute;
+			filter: blur(15rem);
+		}
+		.project__container__icons .color:nth-child(1){
+			top: -35rem;
+			width: 60rem;
+			height: 60rem;
+		}
+		.project__container__icons .color:nth-child(2){
+			bottom: -15rem;
+			left: 10rem;
+			width: 50rem;
+			height: 50rem;
+		}
+		.project__container__icons .color:nth-child(3){
+			bottom: -5rem;
+			right: 0;
+			width: 30rem;
+			height: 30rem;
+		}
+		
+		ul{
+			position: relative;
+			display: flex;
+		}
+		
+		ul li{
+			position: relative;
+			list-style: none;
+			margin: 1rem;
+		}
+		
+		ul li .project__container__icons__box {
+			position: relative;
+			top: 0;
+			width: 8rem;
+			height: 8rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			font-size: 2em;
+			border: 0.1rem solid rgba(255,255,255,0.4);
+			border-right: 0.1rem solid rgba(255,255,255,0.2);
+			border-bottom: 0.1rem solid rgba(255,255,255,0.2);
+			border-radius: 1rem;
+			background: rgba(255,255,255,0.15);
+			backdrop-filter: blur(0.4rem);
+			z-index: 1;
+			box-shadow: 0 0.5rem 4.5rem rgba(0,0,0,0.1);
+			text-decoration: none;
+			overflow: hidden;
+			transition: top 0.5s, z-index 0s, transform 0.5s;
+			transition-delay: 0.5s, 0.5s, 0s;
+			@include l{
+				width: 7rem;
+				height: 7rem;
+			}
+			@include m{
+				width: 6rem;
+				height: 6rem;
+			}
+			@include sl{
+				width: 5rem;
+				height: 5rem;
+			}
+		}
+		
+		ul li .project__container__icons__box:hover{
+			transition-delay: 0s, 0.5s, 0.5s;
+			top: -5rem;
+			transform: translateY(5rem);
+			z-index: 11;
+			@include sl{
+				top: -4rem;
+				transform: translateY(4rem);
+			}
+		}
+		
+		
+		ul li .project__container__icons__box:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 5rem;
+			height: 100%;
+			background: rgba(255,255,255,0.5);
+			transform: skewX(45deg) translateX(15rem);
+			transition: 0.5s;
+		}
+		
+		ul li .project__container__icons__box:hover:before{
+			transform: skewX(45deg) translateX(-15rem);
+		}
+		
+		svg{
+			@include m{
+				width: 4rem;
+			}
+			@include sl{
+				width: 3.5rem;
+			}
+			@include s{
+				width: 3rem;
+			}
+		}
+		.icon1{
+			color: hsla(272, 26%, 72%, 1);
+		}
+		.icon2{
+			color: hsla(348, 67%, 88%, 1);
+		}
+		.icon3{
+			color: hsla(211, 66%, 87%, 1);
+		}
+	}
+}
+
+.social__project{
+	@include m{
+		top: 105rem !important;
+	}
+	@include sl{
+		top: 95rem !important;
+	}
+	@include sm{
+		top: 96rem !important;
+	}
+	@include s{
+		top: 98.5rem !important;
+	}
+	li, a{
+		width: 4rem !important;
+		height: 4rem !important;
+		i{
+			width: 4rem !important;
+		}
+	}
+}
+.cr__project{
+	bottom: 1rem !important;
+	@include m{
+		bottom: 3rem !important;
+	}
+}
+
+.project__links{
+	@include sm{
+		width: 13rem !important;
+	}
+	@include s{
+		width: 11rem !important;
+	}
+}
+
+.content__banner__intro{
+	h3{
+		@include m{
+			text-align: center;
+		}
+	}
+}
+
+.cbi__project{
+	@include ml{
+		height: 36rem !important;
+	}
+	@include s{
+		height: 40rem !important;
+	}
+}

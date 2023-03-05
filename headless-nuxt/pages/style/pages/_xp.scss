@@ -1,0 +1,55 @@
+.cb__xp{
+  @include m{
+    width: 53rem !important;
+    margin-left: 4rem !important;
+  }
+  @include sl{
+    width: 47rem !important;
+  }
+  @include sm{
+    margin-left: 6rem !important;
+    width: 43rem !important;
+  }
+  @include s{
+    margin-left: 13rem !important;
+    width: 30rem !important;
+    height: 50rem !important;
+  }
+}
+
+.cbi__xp{
+  @include m{
+    margin-top: 12rem;
+    margin-bottom: 0;
+    height: 28rem !important;
+  }
+}
+
+.social__xp{
+  @include ml{
+    right: -78rem !important;
+    top: 23rem !important;
+  }
+  @include m{
+    top: 403.5rem !important
+  }
+  @include sl{
+    top: 403.5rem !important
+  }
+  @include sm{
+    top: 406.5rem !important
+  }
+  @include s{
+    top: 502.5rem !important
+  }
+}
+
+.ctn__xp{
+  @include ml{
+    margin-right: 9rem;
+    margin-top: 3rem;
+  }
+  @include m{
+    margin-right: 0;
+  }
+}

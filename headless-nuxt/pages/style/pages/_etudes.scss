@@ -1,0 +1,37 @@
+.social__etudes{
+  @include ml{
+    right: -78rem !important;
+  }
+  @include m{
+    top: 252rem !important;
+  }
+  @include sl{
+    top: 288rem !important;
+  }
+  @include sm{
+    top: 316.5rem !important;
+  }
+  @include s{
+    top: 331rem !important;
+  }
+}
+
+.cbi__etudes{
+  @include m{
+    margin-top: 10rem !important;
+    margin-bottom: 0 !important;
+  }
+  @include s{
+    margin-top: 16rem !important;
+  }
+
+}
+
+.cr__etudes{
+  @include m{
+    bottom: 5rem !important;
+  }
+  @include s{
+    bottom: 3rem !important;
+  }
+}

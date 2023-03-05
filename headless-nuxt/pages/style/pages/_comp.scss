@@ -1,0 +1,40 @@
+.cb__comp{
+  @include s{
+    margin-top: -4rem !important;
+    margin-bottom: -6rem !important;
+  }
+}
+
+.cbi__comp{
+  @include sl{
+    height: 23rem !important;
+  }
+}
+
+.social__comp{
+  @include ml{
+    right: -78rem !important;
+    top: 23rem !important;
+  }
+  @include m{
+    top: 363.5rem !important
+  }
+  @include sl{
+    top: 614.5rem !important
+  }
+  @include sm{
+    top: 617.5rem !important
+  }
+  @include s{
+    top: 614.5rem !important
+  }
+}
+
+.ctn__comp{
+  @include ml{
+    padding-right: 6rem !important;
+  }
+  @include m{
+    padding: 4rem 0 !important;
+  }
+}
